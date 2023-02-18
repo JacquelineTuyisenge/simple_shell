@@ -1,0 +1,28 @@
+/**
+ * reverse_string - Reverses a string
+ *
+ * @s: Pointer to the string to be reversed
+ *
+ * Return: No return value
+ */
+void reverse_string(char *s)
+{
+        if (s)
+        {
+                int i = 0, j = 0;
+                char tmp;
+
+                while (s[j + 1])
+                        j++;
+
+                while (i < j)
+                {
+                        tmp = s[i];
+                        s[i] = s[j];
+                        s[j] = tmp;
+                        i++;
+                        j--;
+                }
+        }
+}
+
