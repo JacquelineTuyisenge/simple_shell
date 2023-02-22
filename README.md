@@ -1,1 +1,1 @@
-Team project of Steve and Jacqueline
+Team project of Steve and Jacqueline.
